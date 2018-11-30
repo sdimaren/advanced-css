@@ -23,7 +23,7 @@
 				<nav class="navigation__nav">
 					<ul class="navigation__list">
 						<li class="navigation__item"><a href="#" class="navigation__link">About Natours</a></li>
-						<li class="navigation__item"><a href="#" class="navigation__link">Your Benifits</a></li>
+						<li class="navigation__item"><a href="#" class="navigation__link">Your Benefits</a></li>
 						<li class="navigation__item"><a href="#" class="navigation__link">Popular Tours</a></li>
 						<li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>
 						<li class="navigation__item"><a href="#" class="navigation__link">Book Now</a></li>
@@ -334,7 +334,12 @@
 
 			<footer class="footer">
 				<div class="footer__logo-box">
-					<img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+
+					<picture class="footer_logo">
+						<source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5em)">
+							<img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" class="footer__logo">
+					</picture>
+					
 				</div>
 				<div class="row">
 					<div class="col-1-of-2">
@@ -369,7 +374,9 @@
 						<p class="popup__text">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit laborum provident dolorum sequi optio, magnam accusantium voluptatibus corporis dignissimos illum velit, tempora a cupiditate at sunt nobis, accusamus ut impedit? Obcaecati sint et fuga, animi voluptate sequi? Repudiandae dignissimos non, minima explicabo inventore architecto? Quibusdam similique reprehenderit ut corrupti amet sed totam quae inventore commodi ipsum laudantium, atque sequi cupiditate, quidem optio architecto velit porro illum iure in excepturi dolor placeat? Corporis ab voluptatum libero dicta.
 						</p>
-						<a href="#" class="btn btn--green">Book Now</a>
+						<div class="u-center-text">
+								<a href="#" class="btn btn--green">Book Now</a>
+						</div>
 					</div>
 				</div>
 			</div>
